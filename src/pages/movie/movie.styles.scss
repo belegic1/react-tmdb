@@ -1,0 +1,28 @@
+.movie__container{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+    .video__container{
+        justify-content: center;
+        align-items: center;
+        margin: 0auto;
+        .iframe{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }
+
+    .movie__title{
+            color: rgb(61, 185, 61);
+        }
+    .movie__description,
+    .movie__rating{
+        color: rgba(255, 255, 255, 0.959);
+    }
+}
